@@ -17,3 +17,9 @@ I built this project to practice Python programming and game development fundame
 - Press the **Spacebar** to make the bird flap and fly upward.
 - Avoid hitting the pipes or the ground.
 - Try to fly as far as you can and beat your high score!
+
+## Gameplay Demo
+
+[![Flappy Sai Gameplay](https://img.youtube.com/vi/XdF5EXXvoow/0.jpg)](https://youtu.be/XdF5EXXvoow)
+
+Click the image above to watch the gameplay demo!
