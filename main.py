@@ -87,7 +87,7 @@ async def main():
                 draw_text(f"Score: {score}", 100, 280, (255, 0, 0))
                 pygame.display.update()
                 end_sound.play()
-                pygame.time.delay(3500)
+                await asyncio.sleep(3.5)
                 running = False
 
             # Remove off-screen pipes
@@ -103,7 +103,7 @@ async def main():
             draw_text(f"Score: {score}", 100, 280, (255, 0, 0))
             pygame.display.update()
             end_sound.play()
-            pygame.time.delay(3500)
+            await asyncio.sleep(3.5)
             running = False
 
         # Increase difficulty
@@ -119,3 +119,4 @@ async def main():
 
 # Run the async function
 asyncio.run(main())
+
