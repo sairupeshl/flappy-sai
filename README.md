@@ -23,3 +23,30 @@ I built this project to practice Python programming and game development fundame
 [![Flappy Sai Gameplay](https://img.youtube.com/vi/XdF5EXXvoow/0.jpg)](https://youtu.be/XdF5EXXvoow)
 
 Click the image above to watch the gameplay demo!
+
+## Requirements
+
+To run this game, you will need:
+* **Python 3.x** installed on your system.
+* **Pygame** library.
+
+You can install Pygame using pip:
+```bash
+pip install pygame
+```
+
+## How to Run Locally
+
+1. Clone this repository to your local machine:
+   ```
+   git clone [https://github.com/sairupeshl/flappy-sai.git](https://github.com/sairupeshl/flappy-sai.git)
+   ```
+2. Navigate into the project directory:
+   ```
+   cd flappy-sai
+   ```
+3. Run the Python script:
+   ```
+   python main.py
+   ```
+Note: Ensure that shortbeepaudio.mp3 and celebrationaudio.mp3 are located in the same directory as your Python script.  
